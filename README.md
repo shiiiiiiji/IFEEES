@@ -2,6 +2,4 @@
 
 IFEEES = **i** **F**ront **E**nd **E**vening **S**tudy
 
-
-
-![](./assets/ifeees.jpg =200x)
+![](http://pazgkbbu5.bkt.clouddn.com/ifeees.jpg)
