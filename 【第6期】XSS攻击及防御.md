@@ -91,4 +91,4 @@ const result = myxss.process('<script>alert("xss");</script>')
 - [【第1311期】浅析前端安全之 XSS](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ%3D%3D&mid=2651229034&idx=1&sn=e05cd113bf615b4e1a34d6e22e7c8115#wechat_redirect)
 - [【第849期】如何让前端更安全？——XSS攻击和防御详解](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651225720&idx=1&sn=780700316f7c3c245b6366269cc9257d&chksm=bd49a7fc8a3e2eeaccaff02f223f95fe249baa5523578a9dd3988e04caef472c29b9da47f289&scene=21#wechat_redirect)
 
-（完）
+（本篇完）

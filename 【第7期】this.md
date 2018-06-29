@@ -33,4 +33,4 @@
 - [this 关键字](http://javascript.ruanyifeng.com/oop/this.html)
 - [Javascript中this关键字详解](http://www.cnblogs.com/justany/archive/2012/11/01/the_keyword_this_in_javascript.html)
 
-（完）
+（本篇完）

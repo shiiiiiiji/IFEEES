@@ -45,3 +45,5 @@
 - 《JavaScript高级程序设计（第3版）》
 - [https://en.wikipedia.org/wiki/ECMAScript#Versions](https://en.wikipedia.org/wiki/ECMAScript#Versions)
 - [https://medium.com/@justjavac/tc39-ecmascript-proposals-future-of-javascript-386b12149880](https://medium.com/@justjavac/tc39-ecmascript-proposals-future-of-javascript-386b12149880)
+
+（本篇完）

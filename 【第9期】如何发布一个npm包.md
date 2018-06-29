@@ -30,3 +30,5 @@
 1. [npm模块管理器](http://javascript.ruanyifeng.com/nodejs/npm.html)
 2. [How to Publish & Update a Package](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 3. [如何发布node模块到npm社区](https://github.com/muwenzi/Program-Blog/issues/12)
+
+（本篇完）
