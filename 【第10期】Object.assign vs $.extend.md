@@ -63,7 +63,9 @@ if (typeof Object.assign != 'function') {
 ```
 
 - 如何使用Object.assign()实现`deep merge`
+
 ```javascript
+
 function isObject(item) {
   return (item && typeof item === 'object' && !Array.isArray(item));
 }
@@ -86,6 +88,7 @@ function mergeDeep(target, ...sources) {
 }
 ```
 
+## 参考资料
 - https://stackoverflow.com/questions/38345937/object-assign-vs-extend
 - https://stackoverflow.com/questions/27936772/how-to-deep-merge-instead-of-shallow-merge
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign

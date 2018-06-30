@@ -14,3 +14,4 @@
 	- [【第8期】Win7下安装node-sass失败解决方法](【第8期】Win7下安装node-sass失败解决方法.md)
 	- [【第9期】如何发布一个npm包](【第9期】如何发布一个npm包.md)
 	- [【第10期】Object.assign vs $.extend](【第10期】Object.assign vs $.extend.md)
+	- [【第11期】 正则表达式基础知识整理（一）](【第11期】 正则表达式基础知识整理（一）.md)
