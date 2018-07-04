@@ -43,13 +43,18 @@
 	The Stable-Abstractions Principle
 	一个稳定的组件应该是抽象的。
 
-=> 父子组件如何依赖？
+	=> 父子组件如何依赖？
+
 	- IoC好莱坞原则
+
 	hollywood Principle
+
 	Don't call us, we'll call you.
+
 	子组件的初始化和调用由父组件容器负责。
 
 	- CoC约定大于配置原则
+
 	Convention over Configuration
 
 - 设计禁区
