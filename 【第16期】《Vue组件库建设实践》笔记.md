@@ -3,6 +3,8 @@
 ## 分享人
 [林溪](https://github.com/lin-xi)
 
+饿了么前端架构师
+
 ## 内容
 
 ### 组件和抽象
@@ -90,45 +92,47 @@
 	- 迭代
 
 ### 组件库工程化最佳实践
-- 组件管理方案
+组件管理方案
+
 需求：多组件、多人参与、社区参与、私密性
-	- lerna：多包管理工具，[https://lernajs.io/](https://lernajs.io/)，优点：一键安装依赖、自动更新依赖、独立版本管理、非npm包
-	- 国际化：i18n
-		- 制作语言文件
-		- 替换文字
-		- 运行时转换
-	- 测试方案
-		- Karma -> 驱动
-		- Mocha -> 测试框架
-		- Chai -> 断言库
-		- Sinon -> Mock
-		- Istanbul -> 覆盖率
-		- Jest -> 一站式的测试方案
-	- 主题方案
-		- 实现：提取全局变量，合理继承、衍生
-		- 自定义主题：修改主题样式、覆盖主题样式、组件显示传值，内置样式处理
-	- 组件库构建方案
-		- webpack：动态生成入口文件 → 版本号复制 → Lint → 
-			- 构建UMD模块规范输出（浏览器/Node通用）
-			- 构建commonJS2模块规范输出（Node）
-			- 对每个组件，构建commonJS模块规范输出（Node）
-			- 组件之外的公共代码构建（Node）
-			- 构建语言文件，UMD模块规范输出
-			- 构建主题样式
-		- ES模块规范输出：Tree-shaking，只想用其中的一个组件，不想全部引入组件库。
-		- GitHub集成：Travis-CI，travis-ci.org开通服务、coveralls.io开通服务、配置.travis.yml
-			- 提交代码
-			- Travis CI运行
-			- 设置环境变量
-			- 启动测试
-			- 组件库构建、组件提交master、主题提交分支
-			- 文档网站构建提交gh-pages
-			- 提交覆盖率
-			- 成功
-		- 文档方案
-			- docsify：https://docsify.js.org
-		- 翻译方案
-			- crowdin：https://crowdin.com
+
+- lerna：多包管理工具，[https://lernajs.io/](https://lernajs.io/)，优点：一键安装依赖、自动更新依赖、独立版本管理、非npm包
+- 国际化：i18n
+	- 制作语言文件
+	- 替换文字
+	- 运行时转换
+- 测试方案
+	- Karma -> 驱动
+	- Mocha -> 测试框架
+	- Chai -> 断言库
+	- Sinon -> Mock
+	- Istanbul -> 覆盖率
+	- Jest -> 一站式的测试方案
+- 主题方案
+	- 实现：提取全局变量，合理继承、衍生
+	- 自定义主题：修改主题样式、覆盖主题样式、组件显示传值，内置样式处理
+- 组件库构建方案
+	- webpack：动态生成入口文件 → 版本号复制 → Lint → 
+		- 构建UMD模块规范输出（浏览器/Node通用）
+		- 构建commonJS2模块规范输出（Node）
+		- 对每个组件，构建commonJS模块规范输出（Node）
+		- 组件之外的公共代码构建（Node）
+		- 构建语言文件，UMD模块规范输出
+		- 构建主题样式
+	- ES模块规范输出：Tree-shaking，只想用其中的一个组件，不想全部引入组件库。
+	- GitHub集成：Travis-CI，travis-ci.org开通服务、coveralls.io开通服务、配置.travis.yml
+		- 提交代码
+		- Travis CI运行
+		- 设置环境变量
+		- 启动测试
+		- 组件库构建、组件提交master、主题提交分支
+		- 文档网站构建提交gh-pages
+		- 提交覆盖率
+		- 成功
+	- 文档方案
+		- docsify：https://docsify.js.org
+	- 翻译方案
+		- crowdin：https://crowdin.com
 
 ### 总结与展望
 - 组件库还是要有的
